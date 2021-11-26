@@ -2,7 +2,7 @@ package = "kong-plugin-acme2"
 version = "0.3.0-1"
 source = {
    url = "git+https://github.com/lodrantl/kong-plugin-acme.git",
-   tag = "0.3.0-1",
+   tag = "0.3.0",
 }
 description = {
    homepage = "https://github.com/lodrantl/kong-plugin-acme",
@@ -24,5 +24,5 @@ build = {
 }
 dependencies = {
   --"kong >= 1.2.0",
-  "lua-resty-acme ~> 0.6"
+  "lua-resty-acme ~> 0.7"
 }
