@@ -1,8 +1,8 @@
 package = "kong-plugin-acme2"
-version = "0.2.15-1"
+version = "0.3.0-1"
 source = {
    url = "git+https://github.com/lodrantl/kong-plugin-acme.git",
-   tag = "0.2.15",
+   tag = "0.3.0-1",
 }
 description = {
    homepage = "https://github.com/lodrantl/kong-plugin-acme",
