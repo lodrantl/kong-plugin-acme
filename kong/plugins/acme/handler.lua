@@ -1,5 +1,5 @@
 local kong_certificate = require "kong.runloop.certificate"
-local client = require "kong.plugins.acme.client"
+local client = require "kong.plugins.acme2.client"
 local ngx_ssl = require "ngx.ssl"
 
 local acme_challenge_path = [[^/\.well-known/acme-challenge/(.+)]]

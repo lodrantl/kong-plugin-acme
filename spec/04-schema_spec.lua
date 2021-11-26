@@ -1,4 +1,4 @@
-local acme_schema = require "kong.plugins.acme.schema"
+local acme_schema = require "kong.plugins.acme2.schema"
 local v = require("spec.helpers").validate_plugin_config_schema
 
 describe("Plugin: acme (schema)", function()

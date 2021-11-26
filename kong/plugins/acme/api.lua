@@ -1,5 +1,5 @@
-local client = require "kong.plugins.acme.client"
-local handler = require "kong.plugins.acme.handler"
+local client = require "kong.plugins.acme2.client"
+local handler = require "kong.plugins.acme2.handler"
 local http = require "resty.http"
 
 local x509 = require "resty.openssl.x509"

@@ -1,4 +1,4 @@
-package = "kong-plugin-acme"
+package = "kong-plugin-acme2"
 version = "0.2.15-1"
 source = {
    url = "git+https://github.com/lodrantl/kong-plugin-acme.git",

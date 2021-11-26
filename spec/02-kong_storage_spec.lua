@@ -1,4 +1,4 @@
-local storage = require("kong.plugins.acme.storage.kong")
+local storage = require("kong.plugins.acme2.storage.kong")
 
 local helpers = require "spec.helpers"
 

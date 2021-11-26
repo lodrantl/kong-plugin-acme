@@ -44,7 +44,7 @@ for _, strategy in ipairs(strategies) do
       "acme_storage"
     }, { "acme", })
 
-    client = require("kong.plugins.acme.client")
+    client = require("kong.plugins.acme2.client")
 
     local account_name = client._account_name(proper_config)
 
@@ -215,7 +215,7 @@ for _, strategy in ipairs({"off"}) do
         tags = { "managed-by-acme" },
       }
 
-      client = require("kong.plugins.acme.client")
+      client = require("kong.plugins.acme2.client")
       -- hack in unit test mode
       client._set_is_dbless(strategy == "off")
     end)
